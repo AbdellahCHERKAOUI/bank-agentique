@@ -55,19 +55,4 @@ telegram.bot.token=${TELEGRAM_TOKEN}
 spring.ai.mcp.client.streamable-http.connections.customer.url=http://localhost:8056
 ```
 
-## Usage
 
-Send a message to the bot on Discord or Telegram:
-
-- "List all customers"
-- "Add a customer named Ismail with email ismail@gmail.com"
-
-## Roadmap
-
-- Authentication and authorization with **Keycloak**
-- Persistent chat memory (JDBC)
-- Accounts and transactions tools for the agent
-
-## Author
-
-Cherkaoui
