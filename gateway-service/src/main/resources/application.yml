@@ -1,0 +1,19 @@
+#spring:
+#  cloud:
+#    gateway:
+#      server:
+#        webflux:
+#          routes:
+#            - id: r1
+#              uri: http://localhost:8056
+#              predicates:
+#                - name: Path
+#                  args:
+#                    pattern: /customers/**
+#
+#            - id: r2
+#              uri: http://localhost:8057
+#              predicates:
+#                - name: Path
+#                  args:
+#                    pattern: /accounts/**
